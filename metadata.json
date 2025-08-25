@@ -1,0 +1,5 @@
+{
+  "name": "WorkPass Customer Hub",
+  "description": "A modern, web-based application to manage a customer database with add, edit, delete, and search functionalities. Designed for full-stack developers looking for a ready-to-use CRM interface.",
+  "requestFramePermissions": []
+}

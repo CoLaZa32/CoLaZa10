@@ -1,0 +1,68 @@
+
+import { Customer } from './types';
+
+export const INITIAL_CUSTOMERS: Customer[] = [
+  {
+    id: '1',
+    name: 'John Doe',
+    email: 'john.doe@example.com',
+    phone: '555-0101',
+    company: 'Innovate Inc.',
+    status: 'Active',
+    createdAt: '2023-01-15T09:30:00Z',
+  },
+  {
+    id: '2',
+    name: 'Jane Smith',
+    email: 'jane.smith@example.com',
+    phone: '555-0102',
+    company: 'Solutions Co.',
+    status: 'Active',
+    createdAt: '2023-02-20T14:00:00Z',
+  },
+  {
+    id: '3',
+    name: 'Michael Johnson',
+    email: 'michael.j@example.com',
+    phone: '555-0103',
+    company: 'Tech Gadgets',
+    status: 'Inactive',
+    createdAt: '2023-03-10T11:45:00Z',
+  },
+  {
+    id: '4',
+    name: 'Emily Davis',
+    email: 'emily.davis@example.com',
+    phone: '555-0104',
+    company: 'Marketing Pros',
+    status: 'Lead',
+    createdAt: '2023-04-05T16:20:00Z',
+  },
+  {
+    id: '5',
+    name: 'Chris Martinez',
+    email: 'chris.m@example.com',
+    phone: '555-0105',
+    company: 'Innovate Inc.',
+    status: 'Active',
+    createdAt: '2023-05-22T08:00:00Z',
+  },
+  {
+    id: '6',
+    name: 'Jessica Garcia',
+    email: 'jessica.g@example.com',
+    phone: '555-0106',
+    company: 'Web Creators',
+    status: 'Lead',
+    createdAt: '2023-06-18T13:10:00Z',
+  },
+  {
+    id: '7',
+    name: 'David Wilson',
+    email: 'david.w@example.com',
+    phone: '555-0107',
+    company: 'Solutions Co.',
+    status: 'Inactive',
+    createdAt: '2023-07-30T10:00:00Z',
+  },
+];
